@@ -152,6 +152,7 @@ li.h-l-item {
 .small-card {
   background-color: #fff;
   padding: 16px 16px;
+  box-shadow: 0 4px 8px -4px #999;
 }
 .s-c-l-text {
   font-weight: bold;
@@ -185,6 +186,7 @@ hr.s-c-line {
 .add-section-card {
   height: 100%;
   background-color: #fff;
+  box-shadow: 0 4px 8px -4px #999;
 }
 .a-s-inc-dec-btn {
   font-size: 80px;
