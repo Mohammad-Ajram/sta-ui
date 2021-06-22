@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.pointer {
+  cursor: pointer;
+}
+.sidebar-list {
+  list-style-type: none;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin: 4px;
+  cursor: pointer;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+li {
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+#search-bar {
+  font-size: 12px;
+  font-weight: bolder;
+  background-color: #efefef;
+  padding: 8px 16px;
+  outline: none;
+  border: none;
+}
+#search {
+  position: relative;
+  display: inline-block;
+  margin-top: 16px;
+}
+#search-icon {
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.sidebar-list {
+  margin-top: 16px;
+}
+.list-2 {
+  font-size: 12px !important;
+  margin-top: 40px;
+}
+.header {
+  box-shadow: 2px 1px 4px #888888;
+}
+#header-list {
+  list-style-type: none;
+  font-size: 10px;
+  margin: 0;
+  padding: 16px 40px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+li.h-l-item {
+  display: inline-block;
+}
+.main-content {
+  padding: 40px 80px;
+}
+.small-heading {
+  font-size: 12px;
+}
+/*----Large Card-----*/
+.l-c-content {
+  margin: 24px;
+  padding: 40px 60px;
+  background-color: #f1f1f1;
+}
+.large-card {
+  background-color: #fff;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+.l-c-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.large-num {
+  padding: 8px 24px;
+  font-size: 40px;
+  font-family: "Lato", sans-serif;
+  font-weight: bolder;
+  color: white;
+  background-color: #339adf;
+  border-radius: 6px;
+}
+.classname {
+  font-weight: bolder;
+  font-size: 20px;
+  margin: 0 48px 0 20px;
+}
+.l-c-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.l-c-right {
+  display: flex;
+  align-items: center;
+}
+.small-num {
+  font-size: 16px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: white;
+  margin: 0 4px;
+}
+.pink {
+  background-color: #fd92bb;
+}
+.yellow {
+  background-color: #f3c47b;
+}
+.l-blue {
+  background-color: #62b0ff;
+}
+.l-c-r-item {
+  font-weight: bolder;
+  font-size: 16px;
+  margin: 0 8px;
+}
+.blue {
+  color: #62b0ff;
+}
+.inc-dec-btn {
+  margin-left: 60px;
+  font-size: 60px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: -16px;
+}
+/*---small card----*/
+.small-card {
+  background-color: #fff;
+  padding: 16px 16px;
+}
+.s-c-l-text {
+  font-weight: bold;
+  text-align: right;
+}
+.s-c-s-text {
+  font-weight: 200;
+  font-size: 12px;
+  color: #999;
+  line-height: 8px;
+}
+.s-c-c-l-text {
+  font-weight: bold;
+  font-size: 16px;
+  color: #1776b6;
+}
+.s-c-c-s-text {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 8px;
+  color: #888;
+}
+.s-c-f-l-text {
+  text-align: left;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+}
+hr.s-c-line {
+  margin: 8px 0;
+}
+.add-section-card {
+  height: 100%;
+  background-color: #fff;
+}
+.a-s-inc-dec-btn {
+  font-size: 80px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: -24px;
+}
+.a-s-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #888;
+}
+.modal-dialog {
+  max-width: 60%;
+}
+th {
+  font-size: 14px;
+  font-weight: 600px;
+  text-align: left;
+  padding: 16px;
+}
+td {
+  text-align: left;
+  padding: 16px;
+}
+/*---modal----*/
+.modal-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+.class-select {
+  font-weight: bold;
+  font-size: 16px;
+  width: 100%;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid #62b0ff;
+}
+.teacher-search {
+  position: relative;
+}
+.t-search-icon {
+  position: absolute;
+  left: 4px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.teacher-search-box {
+  width: 100%;
+  padding: 8px 28px;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid #dedede;
+}
+.teacher-search-box:focus {
+  border: 1px solid #62b0ff;
+}
+
+.my-btn-primary {
+  color: white;
+  background-color: #339adf;
+  font-weight: 600;
+  padding: 8px 40px;
+  font-size: 20px;
+}
+.my-btn-secondary {
+  background-color: #999;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 8px 40px;
+}
+.plus {
+  background-color: #339adf;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+/*---Page bottom----*/
+.p-b-left {
+  font-size: 14px;
+  font-weight: bold;
+}
+.pagination {
+  background-color: white;
+  padding: 4px 16px;
+}
+.prev,
+.next {
+  font-size: 20px;
+  padding: 8px 16px;
+  font-weight: 400;
+  color: #666;
+}
+.p-num {
+  font-size: 20px;
+  padding: 8px 16px;
+  font-weight: bold;
+  color: #444;
+  background-color: #eee;
+}
