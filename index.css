@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
@@ -29,10 +30,11 @@ li {
 }
 
 #search-bar {
+  width: 100%;
   font-size: 12px;
   font-weight: bolder;
   background-color: #efefef;
-  padding: 8px 16px;
+  padding: 8px 0 8px 16px;
   outline: none;
   border: none;
 }
@@ -69,7 +71,7 @@ li.h-l-item {
   display: inline-block;
 }
 .main-content {
-  padding: 40px 80px;
+  padding: 40px 50px;
 }
 .small-heading {
   font-size: 12px;
@@ -77,7 +79,7 @@ li.h-l-item {
 /*----Large Card-----*/
 .l-c-content {
   margin: 24px;
-  padding: 40px 60px;
+  padding: 40px 40px;
   background-color: #f1f1f1;
 }
 .large-card {
@@ -92,7 +94,7 @@ li.h-l-item {
   padding: 10px;
 }
 .large-num {
-  padding: 8px 24px;
+  padding: 4px 24px;
   font-size: 40px;
   font-family: "Lato", sans-serif;
   font-weight: bolder;
@@ -102,7 +104,7 @@ li.h-l-item {
 }
 .classname {
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 16px;
   margin: 0 48px 0 20px;
 }
 .l-c-left {
@@ -116,7 +118,7 @@ li.h-l-item {
 }
 .small-num {
   font-size: 16px;
-  padding: 6px 12px;
+  padding: 6px 8px;
   border-radius: 4px;
   color: white;
   margin: 0 4px;
@@ -132,7 +134,7 @@ li.h-l-item {
 }
 .l-c-r-item {
   font-weight: bolder;
-  font-size: 16px;
+  font-size: 14px;
   margin: 0 8px;
 }
 .blue {
@@ -212,16 +214,7 @@ td {
   font-size: 20px;
   font-weight: 500;
 }
-.class-select {
-  font-weight: bold;
-  font-size: 16px;
-  width: 100%;
-  padding: 12px 16px;
-  margin-bottom: 16px;
-  border-radius: 8px;
-  outline: none;
-  border: 1px solid #62b0ff;
-}
+
 .teacher-search {
   position: relative;
 }
@@ -243,16 +236,17 @@ td {
 }
 
 .my-btn-primary {
+  font-family: "Montserrat", sans-serif;
   color: white;
-  background-color: #339adf;
-  font-weight: 600;
+  font-weight: 500;
+  background-color: #00aeef;
   padding: 8px 40px;
-  font-size: 20px;
+  font-size: 16px;
 }
 .my-btn-secondary {
   background-color: #999;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 16px;
   padding: 8px 40px;
 }
 .plus {
@@ -261,7 +255,7 @@ td {
   text-align: center;
   font-size: 24px;
   font-weight: 700;
-  padding: 4px 8px;
+  padding: 0px 8px;
   border-radius: 4px;
 }
 /*---Page bottom----*/
@@ -286,4 +280,53 @@ td {
   font-weight: bold;
   color: #444;
   background-color: #eee;
+}
+/*Custom select menu---*/
+.dropbtn {
+  background-color: #3498db;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #2980b9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
 }
